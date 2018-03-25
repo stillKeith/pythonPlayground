@@ -9,7 +9,7 @@ def sub(x, y):
 def mul(x, y):
     return x * y
 
-def tax(x, y):
+def per(x, y):
     return x * y / 100
 
 def div(x, y):
@@ -22,8 +22,10 @@ while repeat:
     print("sub:2 ")
     print("mul:3 ")
     print("div:4 ")
+    print("per:5 ")
 
     choice = int(input("What do you want to do:"))
+
 
 
     if choice == 1:
